@@ -1,0 +1,84 @@
+/* Task 1  */
+body{
+    box-sizing: border-box;
+  
+}
+ .parent{
+     width:800px;
+     overflow:hidden;
+     background-color:lightgray;
+     margin: auto;
+ }
+
+ .full{
+     width:calc((100% - 15px*2)/1);
+     background-color:#dddddd;
+     text-align: center;
+     margin:15px 0 0 15px;
+     padding-top:10px;
+     padding-bottom:10px;
+ }
+
+ 
+ .three{
+float:left;
+width:calc((100% - 15px*4)/3);
+padding-top:10px;
+padding-bottom:10px;
+margin-left:15px;
+background-color:#dddddd;
+text-align: center;
+margin-top:15px;
+
+
+ }
+
+ .clear{
+     clear:both;
+ }
+
+ .two{
+    float:left;
+    width:calc((100% - 15px*3)/2);
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:15px;
+    background-color:#dddddd;
+    text-align: center;
+    margin-top:15px;
+    margin-bottom:15px;
+   
+ }
+
+ .four{
+    float:left;
+    width:calc((100% - 15px*5)/4);
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:15px;
+    background-color:#dddddd;
+    text-align: center;
+    margin-bottom:15px;
+ }
+
+
+ /* Task 2  */
+ .normal,
+ .one,
+ .two-2{
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color:  #b3b3b3;
+    color: black;
+ }
+
+ .one{
+    background-color:#b3b3b325;
+ }
+
+ .two-2{
+     opacity: .1;
+ }
